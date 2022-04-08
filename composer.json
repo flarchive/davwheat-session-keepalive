@@ -1,0 +1,55 @@
+{
+    "name": "davwheat/session-keepalive",
+    "description": "Automatically refreshes user CSRF tokens to prevent interaction errors after idling.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "David Wheatley",
+            "email": "david@davwheat.dev",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Davwheat\\SessionKeepalive\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "davwheat CSRF Auto Refresh",
+            "category": "features",
+            "icon": {
+                "name": "fas fa-user-lock",
+                "backgroundColor": "#51c5dd",
+                "color": "#000"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
