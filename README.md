@@ -2,13 +2,14 @@
 
 > **Read-only archive of released versions of davwheat/session-keepalive.** Not for installation: use [Packagist](https://packagist.org/packages/davwheat/session-keepalive) or the [upstream repository](https://github.com/davwheat/flarum-session-keepalive).
 
-**0** versions archived · Latest: [`1.1.0`](https://github.com/flarchive/davwheat-session-keepalive/tree/archive/v1.1.0) · License: `MIT` · Flarum: `^1.2.0`
+**2** versions archived · Latest: [`1.1.0`](https://github.com/flarchive/davwheat-session-keepalive/tree/archive/v1.1.0) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2022-04-07 | `^1.2.0` | [Browse](https://github.com/flarchive/davwheat-session-keepalive/tree/archive/v1.0.0) |
+| `1.1.0` | 2022-04-08 | `^1.2.0` | [Browse](https://github.com/flarchive/davwheat-session-keepalive/tree/archive/v1.1.0) |
 
 Catalog entry: [packages/davwheat-session-keepalive.json](https://github.com/flarchive/archive-index/blob/main/packages/davwheat-session-keepalive.json)
 
